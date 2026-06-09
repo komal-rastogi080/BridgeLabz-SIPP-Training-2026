@@ -1,1 +1,0 @@
-Welcome to SIPP training 2026
