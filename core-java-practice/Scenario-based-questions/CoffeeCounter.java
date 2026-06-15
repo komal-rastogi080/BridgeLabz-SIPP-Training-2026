@@ -9,7 +9,7 @@ public class CoffeeCounter {
             case "cold coffee":  return 150;
             case "filter coffee":return 60;
             case "americano":    return 100;
-            default:             return -1;  // unknown type
+            default:             return -1;  
         }
     }
 

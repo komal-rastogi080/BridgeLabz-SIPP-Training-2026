@@ -6,7 +6,7 @@ public class TaxCalculator {
 
         Scanner sc = new Scanner(System.in);
 
-        // Single citizen
+        
         System.out.print("Enter income: ");
         double income = sc.nextDouble();
 
@@ -27,7 +27,7 @@ public class TaxCalculator {
         System.out.println("Tax Bracket: " + bracket);
         System.out.println("Tax Amount: " + tax);
 
-        // Array of 10 citizens
+        
         double[] incomes = {
             5000, 12000, 25000, 60000, 8000,
             45000, 70000, 15000, 30000, 9000
