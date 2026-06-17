@@ -1,24 +1,17 @@
 import java.util.Scanner;
 
-/**
- * Program 6: Demonstrate IllegalArgumentException
- */
+
 class IllegalArgumentExceptionDemo {
     
-    /**
-     * Method to generate IllegalArgumentException
-     * Setting start index greater than end index will throw exception
-     */
+    
     public static void generateIllegalArgumentException(String text) {
         System.out.println("Attempting to create substring with invalid indices...");
         
-        // Start index greater than end index will throw exception
+        
         String substring = text.substring(5, 2);
     }
     
-    /**
-     * Method to demonstrate IllegalArgumentException with proper handling
-     */
+    
     public static void handleIllegalArgumentException(String text, int startIndex, int endIndex) {
         System.out.println("Demonstrating IllegalArgumentException with exception handling...");
         System.out.println("String: \"" + text + "\"");
@@ -48,7 +41,7 @@ class IllegalArgumentExceptionDemo {
         System.out.println("=== IllegalArgumentException Demonstration ===\n");
         
         try {
-            // Take user input
+            
             Scanner scanner = new Scanner(System.in);
             
             System.out.print("Enter a string: ");
@@ -60,13 +53,13 @@ class IllegalArgumentExceptionDemo {
             System.out.print("Enter end index: ");
             int endIndex = scanner.nextInt();
             
-            // Show what happens without exception handling (commented)
+            
             System.out.println("\n1. Without Exception Handling (commented to prevent crash):");
             System.out.println("   Uncomment generateIllegalArgumentException() to see the crash\n");
-            // Uncomment to see the exception
-            // generateIllegalArgumentException(text);
             
-            // Show proper exception handling
+            
+            
+            
             System.out.println("2. With Exception Handling:");
             handleIllegalArgumentException(text, startIndex, endIndex);
             
