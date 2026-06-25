@@ -11,6 +11,16 @@ class Vehicle {
     void display() {
         System.out.println(vehicleNumber + " " + ownerName);
     }
+
+    public double fuelCost(double km) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'fuelCost'");
+    }
+
+    public void displayInfo() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'displayInfo'");
+    }
 }
 
 public class SmartParkingManagement {
