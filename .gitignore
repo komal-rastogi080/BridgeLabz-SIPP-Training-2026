@@ -1,0 +1,8 @@
+# Ignore compiled Java class files
+*.class
+
+# Common IDE and build artifacts
+*.log
+*.tmp
+*.swp
+.DS_Store
